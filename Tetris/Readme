@@ -12,30 +12,8 @@
 	   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 	
 	  0. You just DO WHAT THE FUCK YOU WANT TO.
-	  
- 2. Ja und wie benutze ich das Jetzte?
- 	Ganz einfach:
- 			1. Doppelklick auf Tetris.jar
- 	oder	2. In der Konsole: 
- 					cd Vollständiger/Pfad/zu/Tetris.jar/
- 					java -jar Tetris.jar
- 				
- 3. Roadmap:
  	
- 		Garantierte Funktionserweiterung:
-(40%)		- Mehr Musik Auswahl
-(100%)		- Fixing von Bug +01
-(00%)		- Musikwechsel im Spiel, bzw. je nach Level
-(100%)		- Neue SteinER
- 		
- 		Unsichere Funktionswünsche:
- 			- Vorschau des Abgesetzten Steins
- 			- Hotseat
- 			- Netzwerk 2 Spieler
- 			- Easter Eggs :D
- 			- Sanfter Übergang zwischen einzelnen Musikstücken
- 	
- 4. Änderungsprotokoll:
+ 2. Changelog:
  	2.12.26:
  		Codename: Glory
  		
@@ -114,7 +92,7 @@
  			- Konfigurator für Einstellungen
  			- Weiteres Sound Thema: Star Wars
  			- Einführung eines LogFiles
- 			- Tastendrücke werden nun Widerholt
+ 			- Tastendrücke werden nun Wiederholt
  			- Drop down nun auf Leertaste
  			- Maximale Musik geschwindigkeit wurde erhöht
  			
