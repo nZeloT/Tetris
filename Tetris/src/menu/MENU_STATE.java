@@ -1,0 +1,10 @@
+package menu;
+
+public enum MENU_STATE{
+	MS_MAIN,
+	MS_PAUSE,
+	MS_HIGHSCORE,
+	MS_HIGHSCOREIN,
+	MS_OPTIONS,
+	MS_OPTIONS_WINDOW
+}

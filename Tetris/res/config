@@ -1,0 +1,12 @@
+SelectionColor#0-134-203
+ConsoleLog#0
+FieldSize#10x20
+AspectRatio#1:2
+FallingHelp#1
+HighscoreFiles#res/highscore::res/highscorehard
+WindowSize#350x700
+SoundB#res/imperial-March.mid
+SoundA#res/main-theme.mid
+FPS#60.0
+Clipboard#1
+SoundOn#0

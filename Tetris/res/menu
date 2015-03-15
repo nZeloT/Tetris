@@ -1,0 +1,6 @@
+txt::TETRIS::0.5::0.1::Arial-60#txt::2.12.26 "Glory"::0.6::0.2::Arial-15#btn::Normal Game::0.5::0.3::Arial-25#btn::Hardcore Game::0.5::0.4::Arial-25#btn::Highscore::0.5::0.5::Arial-25#btn::Options::0.5::0.6::Arial-25#btn::Exit::0.5::0.9::Arial-25
+txt::P A U S E::0.5::0.1::Arial-40#btn::Continue::0.3::0.7::Arial-25
+txt::Highscore::0.5::0.1::Arial-40#spn::-::0.2::0.3::Arial-25::txt-Normal-Hardcore#btn::Ok::0.5::0.9::Arial-25
+txt::New Highscore!::0.5::0.1::Arial-40#tfl::Name::0.1::0.5::Arial-25::7#btn::Ok::0.5::0.9::Arial-25
+txt::Options::0.5::0.1::Arial-40#chb::Sound::0.2::0.2::Arial-25::SoundOn#chb::Console Log::0.2::0.3::Arial-25::ConsoleLog#chb::Falling Help::0.2::0.4::Arial-25::FallingHelp#chb::Clipboard::0.2::0.5::Arial-25::Clipboard#btn::Window Preferences::0.5::0.6::Arial-25#btn::Ok::0.5::0.9::Arial-25
+txt::Window Pref::0.5::0.1::Arial-40#spn::-::0.1::0.2::Arial-25::txt-1:2-2:3-1:1-3:2-2:1#spn::-::0.1::0.3::Arial-25::txt-Breite x Hoehe-Hoehe x Breite#spn::-::0.1::0.4::Arial-25::txt-BpR x BpC-BpC x BpR#btn::Ok::0.5::0.9::Arial-25

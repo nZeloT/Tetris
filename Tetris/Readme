@@ -1,0 +1,143 @@
+ 1. License: 	
+	 	            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+	                    Version 2, December 2004
+	
+	 Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+	
+	 Everyone is permitted to copy and distribute verbatim or modified
+	 copies of this license document, and changing it is allowed as long
+	 as the name is changed.
+	
+	            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+	   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+	
+	  0. You just DO WHAT THE FUCK YOU WANT TO.
+	  
+ 2. Ja und wie benutze ich das Jetzte?
+ 	Ganz einfach:
+ 			1. Doppelklick auf Tetris.jar
+ 	oder	2. In der Konsole: 
+ 					cd Vollständiger/Pfad/zu/Tetris.jar/
+ 					java -jar Tetris.jar
+ 				
+ 3. Roadmap:
+ 	
+ 		Garantierte Funktionserweiterung:
+(40%)		- Mehr Musik Auswahl
+(100%)		- Fixing von Bug +01
+(00%)		- Musikwechsel im Spiel, bzw. je nach Level
+(100%)		- Neue SteinER
+ 		
+ 		Unsichere Funktionswünsche:
+ 			- Vorschau des Abgesetzten Steins
+ 			- Hotseat
+ 			- Netzwerk 2 Spieler
+ 			- Easter Eggs :D
+ 			- Sanfter Übergang zwischen einzelnen Musikstücken
+ 	
+ 4. Änderungsprotokoll:
+ 	2.12.26:
+ 		Codename: Glory
+ 		
+ 			Neue Funktionen:
+ 				- Hardcore Modus mit neuen Steinen
+ 				- Extra Highscore für neuen Hardcore Modus
+ 				- Verbessertes Lesen der Einstellungen
+ 				- Komplettes Menu System
+ 					- u.a. mit dynmisch generierten menü elementen
+ 					- dazu zählen Text, Button, Check Box, Spinner, und Text Field
+ 				- Frei konfigurierbare Marker Farbe
+ 			
+ 			Behobene Fehler:
+ 				#17 Plattform konformität erhöht
+ 				#-- Sound läuft wider in einer Dauerschleife
+ 
+ 	1.1.3:
+ 		Codename: High Mountian
+ 		
+ 			Neue Funktionen:
+ 				- Neue Musik: Entertainer, Raiders March
+ 				- Langzeitstatistik
+ 				
+ 			Behobene Fehler:
+ 				#13 Der Bilal Bug ist nun behoben. Es kann nicht durch absetzten von blöcken zufällig zu einer unerwarteten Game-Over Situation kommen.
+ 				#15 Der Highscore wird wider korrekt gelesen und geschrieben
+ 				#16 Das Clipboard sollte nun korrekt arbeiten
+ 				
+ 				#01 Rotation über y < 0 und Steintausch nun möglich
+ 
+ 
+ 	1.1.2:
+ 		Codename: Build High
+ 			
+ 			Neue Funktionen:
+ 				- Ersetzung des Timers für Block Bewegung durch eine Dauerschleife, um einen sehr seltenen Game Over Bug zu beheben
+ 				- Zentrierte Darstellung der Texte auf dem Spielfeld
+ 				- Tetris Schriftzug eingefügt
+ 				- FPS Zahl anpassbar
+ 		
+ 			Behobene Fehler:
+ 				#10 Darstellungs Fehler der Stein Vorschau behoben
+ 				#11 Clipboard wird nun resetted
+ 				#12 Der Highscore wird nun wider korrekt geschrieben
+ 				
+ 			Bekannte Fehler:
+ 				+14 Hohe CPU auslastung
+ 				+15 Fehlerhafte Highscore Input Filterung aufgrund derer die Highscore Datei unlesbar wird
+ 
+ 	1.1.1:
+ 		Codename: Jump High
+ 		
+ 		Neue Funktionen:
+ 			- Anzeige des Logos im Hauptmenü
+ 			- Box um Vorschau des Nächsten Steines und das Clipboard
+ 			- Dynamische Anpassung der Geschwindigkeit anhand der Feldgröße
+ 			- Verschlüsselung des Highscores um einfache Bearbeitung zu verhindern
+ 		
+ 		Behobene Fehler:
+ 			#07 Steine können nun nichtmehr ineinander Teleportiert werden
+ 			
+ 		Bekannte Fehler:
+ 			+10 Fehlerhafte Darstellung der Stein Vorschau
+ 			+11 Clipboard wir bei neuem Spiel nicht resettet
+ 			+12 Highscore wird nicht korrekt geschrieben
+ 			+13 Der Bilal-Bug
+ 			+16 Möglicher Out of Bounds beim Clipborad swap
+ 
+ 	1.1.0:
+ 		Codename: High
+ 	
+ 		Neue Funktionen:
+ 			- Lokales Highscore System
+ 			- Stein Speichern Funktion [Clipboard (engl. Zwischenablage)]
+ 			- Anzeige der vom Stein belegten Spalten
+ 			- Konfigurator für Einstellungen
+ 			- Weiteres Sound Thema: Star Wars
+ 			- Einführung eines LogFiles
+ 			- Tastendrücke werden nun Widerholt
+ 			- Drop down nun auf Leertaste
+ 			- Maximale Musik geschwindigkeit wurde erhöht
+ 			
+ 		Behobene Fehler:
+ 			#02 Mögliche Seitliche Rotation in andere Steine nicht mehr Möglich
+ 			#03 Nun die Original Farben
+ 			#04 Steiner werden nun gegen den Uhrzeigersinn
+ 			#05 Keine Verschiebung des Steines mehr nach rechts bei Mehrfacher Rotation
+ 			#06 Nun Möglich den Stein zu bewegen, auch wenn er nicht komplett sichtbar ist
+ 			
+ 		Bekannte Fehler:
+ 			+07 Mögliche Teleportation in andere Steiner, bei Widerherstellung durch das Clipboard
+ 			+08 Wenn das Feld breiter als Hoch ist, wird der Highscore nicht korrekt dargestellt
+ 			+09 Speicherung eines Steines auch wenn dieser nicht Komplett sichtbar ist
+ 			+16 Fehlerhaftes Lesen und Speichern der Highscores unter anderen Systemen außer Windows
+ 
+ 	1.0.0:
+ 		Codename: I
+ 		
+ 		Bekannte Fehler:
+ 			+01 Rotation eines Steins, auch wenn dieser nicht komplett sichtbar ist
+ 			+02 Mögliche Seitliche Rotation in andere Steine
+ 			+03 falsche Farben
+ 			+04 Drehung erfolt im Uhrzeigersinn
+ 			+05 Stein bewegt sich bei mehrfacher drehung nach rechts
+ 			+06 Bewegen des Steins auch wenn er noch nicht komplett sichtbar ist
